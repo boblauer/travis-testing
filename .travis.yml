@@ -8,7 +8,6 @@ cache:
 install:
   - yarn install
 script:
-  - set -o pipefail
-  - yarn run test
+  - set -o pipefail && yarn run test
 after_failure:
   - yarn run log
