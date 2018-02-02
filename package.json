@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha index.js",
+    "test": "set -o pipefail; mocha index.js | tee output.txt",
     "log": "node log.js"
   },
   "repository": {
