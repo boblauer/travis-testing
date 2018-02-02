@@ -8,6 +8,6 @@ cache:
 install:
   - yarn install
 script:
-  - yarn run test | tee output.txt; test ${PIPESTATUS[0]} -eq 0
+  - yarn run test --color=always | tee output.txt; test ${PIPESTATUS[0]} -eq 0
 after_failure:
   - yarn run log
