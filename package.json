@@ -1,0 +1,23 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js",
+    "log": "node log.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boblauer/travis-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boblauer/travis-testing/issues"
+  },
+  "homepage": "https://github.com/boblauer/travis-testing#readme",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
+}
